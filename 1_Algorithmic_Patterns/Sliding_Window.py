@@ -1,4 +1,6 @@
 # 209. Minimum Size Subarray Sum
+
+from typing import List
 class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
         left = right = curr = 0
